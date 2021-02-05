@@ -1,0 +1,103 @@
+body {
+	margin: 0;
+	font-family: 'Poppins', sans-serif;
+}
+.container {
+	width: 1170px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.row {
+	display: flex;
+	justify-content: space-between;
+}
+
+/* HEADER */
+.header {
+	width: 100%;
+	height: 700px;
+	background: #f1f1f1;
+	padding-top: 46px;
+}
+.header .container {
+	height: 100%;
+	position: relative;
+}
+.logo {
+	position: relative;
+	font-weight: 700;
+	font-size: 32px;
+	line-height: 1;
+}
+.logo::after {
+	position: absolute;
+	bottom: -4px;
+	right: -12px;
+
+	content: '';
+	display: block;
+	width: 8px;
+	height: 8px;
+	border-radius: 50%;
+	background: #fda300;
+}
+.nav-link {
+	text-decoration: none;
+	color: #000;
+	font-weight: 500;
+	font-size: 14px;
+	margin-left: 50px;
+}
+.nav-link:hover {
+    color:  #fda300
+}
+.nav-link.active {
+	color: #606060;
+}
+.header-content {
+	margin-top: 200px;
+	max-width: 500px;
+	color: #000000;
+}
+.header-content h1 {
+	margin: 0;
+	margin-bottom: 20px;
+	font-weight: 600;
+	font-size: 44px;
+	line-height: 1.5;
+}
+.header-content p {
+	font-size: 14px;
+	line-height: 2;
+}
+.header-img {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+}
+/* // HEADER */
+
+
+/* SKILLS */
+.section-skills {
+    padding-top: 90px;
+    padding-bottom: 110px;
+}
+.skill {
+    max-width: 370px;
+}
+.skill-img {
+	margin-bottom: 30px;
+}
+.skill-header {
+	margin: 0;
+    margin-bottom: 10px;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 1.5;
+    text-transform: uppercase;
+}
+.skill p {
+    font-size: 14px;
+    line-height: 2;
+}
